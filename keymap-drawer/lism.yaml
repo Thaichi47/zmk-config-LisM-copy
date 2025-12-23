@@ -1,7 +1,7 @@
 layout: {zmk_keyboard: lism}
 layers:
   Default Layer:
-  - Q
+  - {t: Q, h: mouse Layer}
   - W
   - E
   - R
@@ -11,17 +11,17 @@ layers:
   - I
   - O
   - P
-  - A
-  - {t: S, h: LALT}
-  - {t: D, h: LSHIFT}
-  - {t: F, h: LGUI}
-  - {t: G, h: LCTRL}
-  - {t: H, h: RCTRL}
-  - {t: J, h: RGUI}
-  - {t: K, h: RSHIFT}
-  - {t: L, h: RALT}
-  - {t: ;, h: Mark Layer}
-  - Z
+  - {t: A, h: LEFT SHIFT}
+  - S
+  - D
+  - F
+  - G
+  - H
+  - J
+  - K
+  - L
+  - {t: ;, h: Device Layer}
+  - {t: Z, h: LEFT SHIFT}
   - X
   - C
   - V
@@ -29,148 +29,148 @@ layers:
   - N
   - M
   - ','
-  - .
-  - /
-  - {t: DEL, h: Device Layer}
-  - {t: Mouse Layer, h: toggle}
-  - {t: TAB, h: Mouse Layer}
-  - Sft+Gui+4
-  - {t: SPACE, h: Number Layer}
-  - {t: ESC, h: Mark Layer}
-  - {t: BS, h: Mark Layer}
-  - {t: ENTER, h: Number Layer}
-  - Sft+Gui+4
-  - F7
-  - F10
-  - {t: F12, h: Device Layer}
-  Mouse Layer:
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - SPACE
-  - Gui+←
-  - Gui+→
-  - '&mkp MB3'
-  - {t: ▽, type: trans}
-  - '&mkp MB5'
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - Gui+↑
-  - '&mkp MB1'
-  - '&mkp MB2'
-  - '&msc SCRL_UP'
-  - '&msc SCRL_DOWN'
-  - '&mkp MB4'
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - Gui+↓
-  - ←
-  - ↑
-  - →
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {type: held}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - ↓
-  - {t: ▽, type: trans}
-  - Gui+W
-  Number Layer:
-  - {t: ▽, type: trans}
-  - '7'
-  - '8'
-  - '9'
+  - {t: PERIOD, h: mouse Layer}
+  - {t: /, h: mouse Layer}
+  - LEFT GUI
+  - LEFT ALT
+  - LCTRL
+  - ''
+  - {t: SPACE, h: nNum/sNum Layer}
+  - {t: LANG ZENKAKUHANKAKU, h: FN/cNum Layer}
+  - {t: LANGUAGE 5, h: FN/cNum Layer}
+  - {t: ENTER, h: nNum/sNum Layer}
+  - ''
+  - DEL
+  - RIGHT SHIFT
+  - ENTER
+  nNum/sNum Layer:
+  - Sft+1
+  - Sft+2
+  - Sft+3
+  - Sft+4
+  - Sft+5
+  - KP 7
+  - KP 8
+  - KP 9
+  - KP 0
+  - '-'
+  - Sft+6
+  - Sft+7
+  - Sft+8
+  - Sft+9
   - '='
-  - F1
-  - F2
-  - F7
-  - F10
-  - RSHIFT
+  - KP 4
+  - KP 5
+  - KP 6
+  - KP DOT
   - '*'
-  - {t: '4', h: LALT}
-  - {t: '5', h: LSHIFT}
-  - {t: '6', h: LGUI}
-  - {t: '-', h: LCTRL}
-  - '&mkp MB1'
-  - ←
-  - ↑
-  - →
-  - RGUI
-  - /
-  - '1'
-  - '2'
-  - '3'
-  - +
-  - '&mkp MB2'
-  - ''
-  - ↓
-  - ''
-  - RALT
-  - {t: ▽, type: trans}
-  - .
-  - '0'
-  - {t: ▽, type: trans}
-  - {t: LANG2, type: held}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - LANG1
-  - {t: ▽, type: trans}
-  - Sft+Ctl+TAB
-  - Ctl+TAB
-  - F12
-  Mark Layer:
-  - Sft+Gui+4
-  - F4
-  - (
-  - )
-  - ''
-  - '~'
-  - '!'
-  - '@'
-  - '#'
-  - $
-  - '&emoji'
-  - F5
+  - AT
   - '['
   - ']'
-  - ''
-  - '`'
-  - _
-  - ''''
-  - '"'
-  - {t: \, type: held}
-  - KP NUMLOCK
-  - F11
-  - '{'
-  - '}'
-  - ''
-  - '|'
-  - '%'
+  - '-'
   - ^
-  - '&'
-  - '*'
+  - KP 1
+  - KP 2
+  - KP 3
+  - ↑
+  - /
+  - LEFT GUI
+  - LEFT ALT
+  - LCTRL
   - {t: ▽, type: trans}
+  - {type: held}
+  - Gui+Sft+S
+  - KP PLUS
+  - ''
+  - ''
+  - ←
+  - DOWN ARROW
+  - →
+  FN/cNum Layer:
+  - Ctl+1
+  - Ctl+2
+  - Ctl+3
+  - Ctl+4
+  - Ctl+5
+  - ESC
+  - KP NLCK
+  - PG UP
+  - PG DN
+  - BS
+  - Ctl+6
+  - Ctl+7
+  - Ctl+8
+  - Ctl+9
+  - Ctl+0
+  - F1
+  - F2
+  - F3
+  - F4
+  - F5
+  - Sft+CAPSLOCK
+  - HOME
+  - PAGE UP
+  - PAGE DOWN
+  - END
+  - F7
+  - F8
+  - F9
+  - F10
+  - F11
+  - LEFT WIN
+  - LEFT ALT
+  - LCTRL
+  - {t: ▽, type: trans}
+  - TAB
+  - {type: held}
+  - ''
+  - LANG1
+  - {t: ▽, type: trans}
+  - RSHIFT
+  - F6
+  - F12
+  mouse Layer:
+  - {type: held}
+  - PRINTSCREEN
+  - SCROLLLOCK
+  - PAUSE
+  - ESC
+  - VOLUME UP
+  - '&mkp MB5'
+  - '&msc SCRL_UP'
+  - ':'
+  - BS
+  - '&emoji'
+  - INSERT
+  - HOME
+  - PG UP
+  - ''
+  - MUTE
+  - '&mkp MB1'
+  - '&mkp MB2'
+  - NON US BACKSLASH
+  - LEFT SHIFT
+  - KP NUMLOCK
+  - DEL
+  - END
+  - PAGE DOWN
+  - ''
+  - VOLUME DOWN
+  - '&mkp MB4'
+  - '&msc SCRL_DOWN'
+  - ''
+  - ''
+  - LEFT WIN
   - {t: ▽, type: trans}
   - '0'
   - {t: ▽, type: trans}
   - SPACE
   - {t: ▽, type: trans}
+  - '&msc SCRL_LEFT'
+  - '&mkp MB3'
   - {t: ▽, type: trans}
-  - ENTER
-  - {t: ▽, type: trans}
-  - ''
-  - ''
+  - '&msc SCRL_RIGHT'
+  - F5
   - F12
   Device Layer:
   - ''
@@ -188,11 +188,11 @@ layers:
   - ''
   - ''
   - ''
+  - BT CLR
   - ''
   - ''
   - ''
-  - ''
-  - ''
+  - {type: held}
   - Reset
   - ''
   - ''
@@ -203,7 +203,7 @@ layers:
   - ''
   - ''
   - Reset
-  - {t: Boot, type: held}
+  - Boot
   - BT CLR ALL
   - ''
   - ''
