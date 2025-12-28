@@ -19,7 +19,7 @@ layers:
   - H
   - J
   - K
-  - L
+  - {t: L, h: mouse Layer}
   - {t: ;, h: Device Layer}
   - {t: Z, h: LEFT SHIFT}
   - X
@@ -37,8 +37,8 @@ layers:
   - ''
   - {t: SPACE, h: nNum/sNum Layer}
   - {t: LANG ZENKAKUHANKAKU, h: FN/cNum Layer}
-  - {t: LANGUAGE 5, h: FN/cNum Layer}
-  - {t: ENTER, h: nNum/sNum Layer}
+  - {t: LANGUAGE 1, h: FN/cNum Layer}
+  - {t: SPACE, h: nNum/sNum Layer}
   - ''
   - DEL
   - RIGHT SHIFT
