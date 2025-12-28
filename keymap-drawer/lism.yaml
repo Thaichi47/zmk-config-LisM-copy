@@ -12,7 +12,7 @@ layers:
   - O
   - P
   - {t: A, h: LEFT SHIFT}
-  - S
+  - {t: S, h: mouse Layer}
   - D
   - F
   - G
@@ -148,8 +148,8 @@ layers:
   - MUTE
   - '&mkp MB1'
   - '&mkp MB2'
-  - NON US BACKSLASH
-  - LEFT SHIFT
+  - ''
+  - /
   - KP NUMLOCK
   - DEL
   - END
