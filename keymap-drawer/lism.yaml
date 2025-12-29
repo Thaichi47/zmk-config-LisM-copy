@@ -36,7 +36,7 @@ layers:
   - LCTRL
   - ''
   - {t: SPACE, h: nNum/sNum Layer}
-  - {t: LANG ZENKAKUHANKAKU, h: FN/cNum Layer}
+  - {t: ESC, h: FN/cNum Layer}
   - {t: LANGUAGE 1, h: FN/cNum Layer}
   - {t: SPACE, h: nNum/sNum Layer}
   - ''
